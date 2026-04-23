@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-weight: bold;
+  overflow: hidden;
+  font-family: Sans-Serif;
+}
+.login{
+  background: rgba(100,100,100,0.2);
+  padding: 2rem;
+  border-radius: 30px;
+  width: 300px;
+  text-align: center;
+}
+.login input[type="email"], input[type="password"], input[type="text"]{
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px black;
+  border-radius: 6px;
+}
+button{
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  background: cornflowerblue;
+  font-weight: bold;
+  border-radius: 6px;
+  color: white;
+}
+p{
+  margin: 10px;
+}
+a{
+  text-decoration: none;
+}
