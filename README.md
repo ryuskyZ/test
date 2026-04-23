@@ -1,2 +1,1 @@
-# test
-Nyoba doang bang
+Selamat Datang Ini Code Pertama saya
