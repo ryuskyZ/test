@@ -3,38 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="m-0 p-0 min-h-screen justify-center flex items-center" >
-  <form action="a.htm" method="get" accept-charset="utf-8">
-    
-  <div class="bg-gray-200 p-5 rounded-3xl">
-    <p class="font-extrabold text-2xl  text-center">LOGIN</p>
-    <input type="email" placeholder="EMAIL" class="text-center mt-3" required/>
-    <br>
-    <input type="password" placeholder="PASSWORD" class="text-center mt-3 mb-3" id="pw" required/>
-    <br>
-    <label class="text-center mt-3 cursor-pointer">
-      <p class="mt-3"> <input type="checkbox" id="showpw"/> Show Password</p>
-    </label>
-    <p class="text-center mt-3">No Have Account? <a href="#" class="text-blue-300 font-black mt3">Signup</a></p>
-    <button class="block mx-auto bg-blue-500 pt-1 pb-1 pl-5 pr-5 mt-3 font-semibold">LOGIN</button>
+<body>
+  <div class="flex items-center justify-center h-screen">
+    <div class=" bg-blue-100 p-5 rounded-lg border-2">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREkuIBrA_uvZZoqnmdqkQUak2X-xEZuECP-A&s" class="h-28 rounded-full mx-auto block">
+      <h1 class="text-center font-black mt-3">MAULANA</h1>
+      <p class="text-center font-extralight">Ingin Jadi Programer</p>
+      <p class="text-center font-extralight"> Malas Belajar</p>
+      <p class="text-center font-extralight">Mending VIBE Coding</p>
+      <div class="flex justify-center gap-5 mt-0 bg-blue-400 rounded-xl border-2">
+        <a href="https://instagram.com/fck.mlna" class="text-3xl text-white hover:text-black"><i class="fa-brands fa-instagram"></i></a>
+        <a class="text-3xl text-white hover:text-black" href="https://github.com/ryuskyz"><i class="fa-brands fa-github"></i></a>
+        <a class="text-white text-3xl hover:text-black" href="https://www.facebook.com/profile.php?id=100084183921569"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+    </div>
   </div>
-  </form>
-  <script>
-const pw = document.getElementById("pw");
-const showpw = document.getElementById("showpw");
-
-showpw.addEventListener("change", function() {
-  if (this.checked) {
-    pw.type = "text";
-  } else {
-    pw.type = "password";
-  }
-});
-</script>
 </body>
 </html>
